@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T13:53:32.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="xcsSmJW3duiA3ZgxFOeN" version="17.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T13:55:11.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="1fLAXPdWdcrGpUkHBuyq" version="17.2.5" type="github">
   <diagram id="XkK5CZMvHKRyhnpNBWVe" name="Page-1">
     <mxGraphModel dx="1262" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -115,10 +115,7 @@
         <mxCell id="vOzRaY_qLplyZbRAdgi7-32" value="BlueSky API" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="10" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-33" value="Data aggregation and transformation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sggzFNjSwJessG-JttE5-1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="vOzRaY_qLplyZbRAdgi7-33" target="sggzFNjSwJessG-JttE5-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="310" as="sourcePoint" />
             <mxPoint x="140" y="260" as="targetPoint" />
@@ -138,6 +135,9 @@
         </mxCell>
         <mxCell id="vOzRaY_qLplyZbRAdgi7-53" value="Onboard and periodically" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-33" value="Data aggregation and transformation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
