@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T14:07:40.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="WdIu4L5bebv41yZIcWIJ" version="17.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T14:33:00.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-9ZrdWfy9-pz9jPvxwQh" version="17.3.0" type="github">
   <diagram id="XkK5CZMvHKRyhnpNBWVe" name="Page-1">
-    <mxGraphModel dx="1007" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,9 +10,9 @@
         <mxCell id="sggzFNjSwJessG-JttE5-1" value="s3 bucket" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="420" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-1" target="vOzRaY_qLplyZbRAdgi7-6" edge="1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-1" target="vOzRaY_qLplyZbRAdgi7-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="365" as="targetPoint" />
+            <mxPoint x="550" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vOzRaY_qLplyZbRAdgi7-1" value="Online Feature Store" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -29,14 +29,6 @@
             <mxPoint x="120" y="520" as="sourcePoint" />
             <mxPoint x="270" y="540" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-6" target="vOzRaY_qLplyZbRAdgi7-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="365" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-6" value="Data Aggregation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="330" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vOzRaY_qLplyZbRAdgi7-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-9" target="vOzRaY_qLplyZbRAdgi7-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -58,7 +50,7 @@
         <mxCell id="vOzRaY_qLplyZbRAdgi7-15" value="Trained model" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="490" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.775;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-15" edge="1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.275;entryDx=0;entryDy=0;exitX=0.775;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-15" edge="1" target="vOzRaY_qLplyZbRAdgi7-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="560" as="sourcePoint" />
             <mxPoint x="830" y="632.5" as="targetPoint" />
@@ -97,7 +89,7 @@
             <mxPoint x="540" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-26" value="BlueSky Data Transformation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-26" value="BlueSky Data Aggregation &amp;amp;Transformation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vOzRaY_qLplyZbRAdgi7-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vOzRaY_qLplyZbRAdgi7-26" target="vOzRaY_qLplyZbRAdgi7-1" edge="1">
@@ -128,16 +120,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vOzRaY_qLplyZbRAdgi7-51" value="getRecord" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="450" y="330" width="60" height="30" as="geometry" />
+          <mxGeometry x="550" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-52" value="Onboard and periodically" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-52" value="Onboard &amp;amp; periodically" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-53" value="Onboard and periodically" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-53" value="Onboard &amp;amp; periodically" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vOzRaY_qLplyZbRAdgi7-33" value="Data aggregation and transformation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vOzRaY_qLplyZbRAdgi7-33" value="Data aggregation &amp;amp;transformation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IhEY1bn6kFufSprSZIv5-1" value="Per client and data range" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="50" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
