@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T13:13:53.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gdTXG_esJ_AgnovqObvK" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T13:42:58.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="menRxczke_U1Cun8d4bQ" version="17.5.0" type="github">
   <diagram id="mq_qr5VxWw64eUtlDuq2" name="Page-1">
     <mxGraphModel dx="1072" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
             <mxPoint x="480" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cI7t6WCmMyfcCZuIhMqo-17" value="1. Create AWS API support POST for processing fraud detection response.&lt;br&gt;2. Create S3 for raw and processed data. Initially store processed data in s3&lt;br&gt;3. Create a Lambda job with an endpoint to be called from API. Lambda will query S3 processed data&lt;br&gt;4. Optional: create a AWS glue job to take s3 raw data and process into useful data model&lt;br&gt;5. Optional: create feature store store data for lambda job to query" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="650" width="550" height="90" as="geometry" />
+        <mxCell id="cI7t6WCmMyfcCZuIhMqo-17" value="1. Create data models (e.g. customer, payment, account)&lt;br&gt;2. Define rules&amp;nbsp; (number of payments allowed per day, total balance cannot be negative)&lt;br&gt;3. Define API&lt;br&gt;4. Create UI that can post&amp;nbsp;&lt;br&gt;5. Create AWS API support POST for processing fraud detection response.&lt;br&gt;6. Create S3 for raw and processed data. Initially store processed data in s3&lt;br&gt;7. Create a Lambda job with an endpoint to be called from API. Lambda will query S3 processed data&lt;br&gt;8. Optional: create a AWS glue job to take s3 raw data and process into useful data model&lt;br&gt;9. Optional: create feature store store data for lambda job to query" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="630" width="550" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
