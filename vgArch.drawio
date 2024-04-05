@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-05T13:30:42.032Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="koYXdob87jjxObLofnGY" version="24.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-05T13:31:44.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="V3latoWfkgRoJWLWdZpo" version="24.2.2" type="github" pages="3">
   <diagram name="Page-1" id="yyaAXf0NI25FcjQbEKhI">
     <mxGraphModel dx="1093" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,11 +176,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c6PCmN31gnsU83kcKO2I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ltJO9EKnTa1av1w8Gwp0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ltJO9EKnTa1av1w8Gwp0-1" value="IIG&amp;nbsp;&lt;div&gt;S3 data lake&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="65" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="c6PCmN31gnsU83kcKO2I-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ltJO9EKnTa1av1w8Gwp0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ltJO9EKnTa1av1w8Gwp0-2" value="PI&lt;div&gt;S3 data lake&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="65" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6PCmN31gnsU83kcKO2I-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ltJO9EKnTa1av1w8Gwp0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ltJO9EKnTa1av1w8Gwp0-3" value="3rd party&lt;div&gt;on-premise&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="65" width="80" height="60" as="geometry" />
